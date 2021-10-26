@@ -1,0 +1,71 @@
+:root{
+  --vermelho: #E50914;
+  --preta: #141414;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  background-color: var(--preta);
+  
+  font-family: "Times New Roman", Times, serif;
+  font-size: 62.5%;
+  color: #fff;
+}
+
+/* NAVEGAÇÃO */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 4rem;
+
+  margin-left: 1rem;
+}
+header nav a {
+  text-decoration: none;
+  color: #AAAAAA;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+header nav a:hover{
+  color: #FFF;
+}
+
+/* FILME PRINCIPAL */
+
+.filme-principal {
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/dune-background.jpg');
+
+  height: 40rem;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titulo{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.descricao {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+}
+
