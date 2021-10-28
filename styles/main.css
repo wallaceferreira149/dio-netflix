@@ -14,7 +14,7 @@ html, body {
   height: 100vh;
   background-color: var(--preta);
   
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Times, serif;
   font-size: 62.5%;
   color: #fff;
 }
@@ -109,4 +109,5 @@ i{
   height: 40px;
   width: 100%;
   display: block;
+  margin-top: 4rem;
 }
