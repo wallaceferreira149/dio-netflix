@@ -31,9 +31,8 @@ header .logo {
   color: var(--vermelho);
   font-family: "Arial Black";
   font-size: 4rem;
-
-  margin-left: 1rem;
 }
+
 header nav a {
   text-decoration: none;
   color: #AAAAAA;
@@ -60,12 +59,54 @@ header nav a:hover{
 }
 
 .titulo{
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 3.6rem;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', Arial, serif;
+
+  margin-top: 15%;
 }
 
 .descricao {
   margin-bottom: 4rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
 }
 
+.btn{
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+
+  padding: 1.5rem 3rem;
+  margin-right: 1.5rem;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+i{
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--preta);
+}
+
+/* WRAPPER */
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+/* CAROUSEL */
+
+.carrosel-filmes{
+  height: 40px;
+  width: 100%;
+  display: block;
+}
